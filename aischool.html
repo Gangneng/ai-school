@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>광주인공지능사관학교</title>
+</head>
+<body>
+    <h1>광주인공지능사관학교 홈페이지입니다.</h1>
+    <h2>회원 등록을 해주세요!</h2>
+    <form action="./aischool2.html" method="GET">
+        <!-- 라벨은 포커스를 잡아주는 역할을 한다! -->
+        <label for="userid_input">이메일</label> 
+        <input
+        id = "userid_input"
+        type = "text"
+        name = "userid"
+        placeholder = "ex) aaa@naver.com"
+        />
+        <br>
+        <label for = 'userpw_input'>비밀번호</label>
+        <input
+        id = 'userpw_input'
+        type = 'password'
+        name = 'userpw'
+        placeholder = '비밀번호를 입력하세요.'
+        />
+        <br>
+        <p>비밀번호 힌트 작성</p>
+        <select name = "비밀번호 힌트를 작성하세요.">
+            <option value="">질문을 선택하세요.</option>
+            <option value="보물">내 보물 1호는?</option>
+            <option value="반려">내 두 번째 반려동물 이름은?</option>
+            <option value="취미">내 취미는?</option>
+        </select>
+        <br>
+        <input id = "hint_answer" type = 'text' name='answer' placeholder="답을 입력하세요."/>
+        <br>
+        <p>자기소개를 해주세요!</p>
+        <textarea name = 'content'  cols = "20" rows="10"></textarea>
+
+        <button name="등록" type = "submit">등록하기</button>
+    </form>
+</body>
+</html>
