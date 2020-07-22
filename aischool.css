@@ -1,0 +1,28 @@
+body{
+    background-color: ivory;
+}
+
+h1, h2{
+    text-align : center;
+}
+
+.enroll{
+    font-style:italic;
+    background-color: pink;
+}
+
+#enroll_form{
+    margin-top:50px;
+    margin-left:650px;
+}
+.use_padding{
+    padding-left:30px
+}
+
+.logo{
+    padding-left:650px;
+}
+
+.submit_btn:hover{
+    color:plum;
+}
